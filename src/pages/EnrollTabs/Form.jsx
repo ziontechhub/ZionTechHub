@@ -310,7 +310,7 @@ function Form({
 
 
     return (
-        <div className="min-h-screen bg-white py-8 sm:py-12 px-4">
+        <div className="min-h-screen  py-8 sm:py-12 px-4">
             {/* Dotted Background */}
             <div
                 className="pointer-events-none absolute inset-0 opacity-50"
@@ -370,15 +370,20 @@ function Form({
                                     <div className="flex items-center gap-3 min-w-0 ">
                                         <span className="flex-shrink-0 w-[8px] h-[8px] rounded-full bg-[#034FE3]" />
 
-                                        <p className="text-[11px] sm:text-[13px] text-[#667085] truncate">
+                                        {/* <p className="text-[11px] sm:text-[13px] text-[#667085] truncate">
                                             Choosen Track:{" "}
                                             <span className="font-[600] text-[#344054]">
                                                 {formData.course || "No track selected"}
                                             </span>
+                                        </p> */}
+                                        <p className="text-[11px] sm:text-[13px] text-[#667085]">
+                                            <span className="font-[600] text-[#344054]">
+                                                Basic Plan: $110 (₦147,000) | Global Plan: $500 (₦664,000)
+                                            </span>
                                         </p>
                                     </div>
 
-                                    {!isCourseDisabled && (
+                                    {/* {!isCourseDisabled && (
                                         <button
                                             type="button"
                                             onClick={() => {
@@ -392,7 +397,7 @@ function Form({
                                         >
                                             Change
                                         </button>
-                                    )}
+                                    )} */}
                                 </div>
 
                                 {/* Fields */}
@@ -483,7 +488,7 @@ function Form({
                                     </section>
 
                                     {/* Referral ID */}
-                                    <section className="flex flex-col gap-2">
+                                    {/* <section className="flex flex-col gap-2">
                                         <label className="text-[11px] sm:text-[12px] font-[500] text-[#475467]">
                                             Referral ID{" "}
                                             <span className="text-[#98A2B3]">(Optional)</span>
@@ -505,7 +510,7 @@ function Form({
                                         <p className="text-[10px] text-[#98A2B3]">
                                             You'll get a new referral code for EACH registration!
                                         </p>
-                                    </section>
+                                    </section> */}
 
                                     {/* Course */}
                                     <section className="flex flex-col gap-2">

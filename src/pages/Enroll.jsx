@@ -200,11 +200,18 @@ function Enroll() {
       </div>
 
       {/* Main */}
+
       <div className="one flex md:items-center flex-col md:min-h-[100vh] min-h-[120vh] gap-[50px] pt-10 z-10">
 
         <section className="w-full">
-
-          {step === 0 && (<Hero
+          <Form
+            setStep={setStep}
+            activeTab={activeTab}
+            setActiveTab={setActiveTab}
+            selectedPackage={selectedPackage}
+            setSelectedPackage={setSelectedPackage}
+          />
+          {/* {step === 0 && (<Hero
             tracks={tracks}
             trackDetails={trackDetails}
             activeTab={activeTab}
@@ -214,7 +221,8 @@ function Enroll() {
             step={step}
             setStep={setStep}
           />)}
-          {step === 1 && (<Tracks
+          {step === 1 && (
+          <Tracks
             tracks={tracks}
             trackDetails={trackDetails}
             activeTab={activeTab}
@@ -223,28 +231,29 @@ function Enroll() {
             setSelectedPackage={setSelectedPackage}
             step={step}
             setStep={setStep}
-          />)}
+          />
+           )} */}
 
-          {step === 2 && (
-            <>
-              <Packages
-                step={step}
+          {/* {step === 2 && ( */}
+          <>
+            <Packages
+              step={step}
+              setStep={setStep}
+              activeTab={activeTab}
+              setActiveTab={setActiveTab}
+              selectedPackage={selectedPackage}
+              setSelectedPackage={setSelectedPackage}
+            />
+
+            {/* <Form
                 setStep={setStep}
                 activeTab={activeTab}
                 setActiveTab={setActiveTab}
                 selectedPackage={selectedPackage}
                 setSelectedPackage={setSelectedPackage}
-              />
-
-              <Form
-                setStep={setStep}
-                activeTab={activeTab}
-                setActiveTab={setActiveTab}
-                selectedPackage={selectedPackage}
-                setSelectedPackage={setSelectedPackage}
-              />
-            </>
-          )}
+              /> */}
+          </>
+          {/* )} */}
 
         </section>
 

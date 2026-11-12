@@ -16,7 +16,7 @@ function Packages({
                     "Learn to turn healthcare data into insights that solve real-world problems through practical training, healthcare datasets and hands-on projects.",
 
                 price: "$110",
-                naira: "₦165,000",
+                naira: "₦147,000",
                 duration: "15-week structured training",
 
                 benefitsTitle:
@@ -52,7 +52,7 @@ function Packages({
                     "Build practical Healthcare Data Analytics skills, prepare for the job market and qualify for entry-level placement through Zion Tech Hub's Talent Network.",
 
                 price: "$500",
-                naira: "₦750,000",
+                naira: "₦664,000",
                 duration: "15-week training + career preparation",
 
                 benefitsTitle:
@@ -86,7 +86,7 @@ function Packages({
                     "Turn financial data into useful insights through practical training, real-world financial datasets and hands-on analytics projects.",
 
                 price: "$110",
-                naira: "₦165,000",
+                naira: "₦147,000",
                 duration: "15-week structured training",
 
                 benefitsTitle:
@@ -124,7 +124,7 @@ function Packages({
                     "Build practical Financial Data Analytics skills, prepare for the job market and qualify for entry-level placement through Zion Tech Hub's Talent Network.",
 
                 price: "$500",
-                naira: "₦750,000",
+                naira: "₦664,000",
                 duration: "15-week training + career preparation",
 
                 benefitsTitle:
@@ -158,7 +158,7 @@ function Packages({
                     "Build practical Data Analytics skills by working with real-world datasets, solving analytical problems and creating projects you can demonstrate.",
 
                 price: "$110",
-                naira: "₦165,000",
+                naira: "₦147,000",
                 duration: "15-week structured training",
 
                 benefitsTitle:
@@ -196,7 +196,7 @@ function Packages({
                     "Build practical Data Analytics skills, develop a job-ready portfolio and prepare for employment through Zion Tech Hub's Talent Network.",
 
                 price: "$500",
-                naira: "₦750,000",
+                naira: "₦664,000",
                 duration: "15-week training + career preparation",
 
                 benefitsTitle:
@@ -231,7 +231,7 @@ function Packages({
                     "Build practical AI and Machine Learning skills to create intelligent solutions for real-world problems through guided training, mentorship, practical assignments and projects.",
 
                 price: "$110",
-                naira: "₦165,000",
+                naira: "₦147,000",
                 duration: "15-week structured training",
 
                 benefitsTitle:
@@ -269,7 +269,7 @@ function Packages({
                     "Build practical AI and Machine Learning Engineering skills through our 15-week program, prepare for the job market and qualify for guaranteed entry-level job placement through Zion Tech Hub's Talent Network after completing the required training, projects and assignments.",
 
                 price: "$500",
-                naira: "₦750,000",
+                naira: "₦664,000",
                 duration: "15-week training + career preparation",
 
                 benefitsTitle:
@@ -309,7 +309,7 @@ function Packages({
                     "Build practical Data Science and AI skills through a structured 12-week programme covering data science, data analysis, machine learning, deep learning and artificial intelligence. You'll learn the foundations, work with data, build models and apply what you learn through practical projects and assignments.",
 
                 price: "$110",
-                naira: "₦165,000",
+                naira: "₦147,000",
                 duration: "12-week structured training",
 
                 benefitsTitle:
@@ -348,7 +348,7 @@ function Packages({
                     "Learn Data Science and AI, build practical projects, develop your portfolio and prepare for the job market through a structured 12-week programme. After completing the required training, projects, assignments and programme requirements, you will qualify for guaranteed entry-level job placement through Zion Tech Hub's Talent Network.",
 
                 price: "$500",
-                naira: "₦750,000",
+                naira: "₦664,000",
                 duration: "12-week training + career preparation",
 
                 benefitsTitle:
@@ -454,7 +454,7 @@ function Packages({
                 selectedTrackDetails?.basic?.price || "$110",
 
             naira:
-                selectedTrackDetails?.basic?.naira || "₦165,000",
+                selectedTrackDetails?.basic?.naira || "₦147,000",
 
             duration:
                 selectedTrackDetails?.basic?.duration ||
@@ -487,7 +487,7 @@ function Packages({
                 selectedTrackDetails?.global?.price || "$500",
 
             naira:
-                selectedTrackDetails?.global?.naira || "₦750,000",
+                selectedTrackDetails?.global?.naira || "₦664,000",
 
             duration:
                 selectedTrackDetails?.global?.duration ||
@@ -520,24 +520,26 @@ function Packages({
                 <div className="mb-3 inline-flex items-center rounded-full border border-[#DCE8FF] bg-[#F5F8FF] px-3 py-1.5 w-fit mx-auto">
                     <span className="mr-2 h-1.5 w-1.5 rounded-full bg-[#034FE3]" />
                     <span className="text-[10px] font-semibold uppercase tracking-[0.08em] text-[#034FE3]">
-                        Step 2 of 2
+                        {/* Step 2 of 2 */}
+                        Package Details
                     </span>
                 </div>
             </div>
             {/* HEADER */}
             <div className="mb-6 flex items-center justify-center gap-2">
 
-                <button
+                {/* <button
                     type="button"
                     onClick={() => setStep((prev) => prev - 1)}
                     className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-[#E4E7EC] bg-white text-[#344054] transition hover:border-[#034FE3] hover:text-[#034FE3]"
                 >
                     <ArrowBack fontSize="small" />
-                </button>
+                </button> */}
 
                 <div className="text-center">
-                    <h2 className="text-[20px] font-bold tracking-[-0.02em] text-[#101828] sm:text-[26px]">
-                        Step 2: Choose Your Learning Package
+                    <h2 className="text-[18px] font-bold tracking-[-0.02em] text-[#101828] sm:text-[26px]">
+                        {/* Step 2: Choose Your Learning Package */}
+                        Select a course to see package details
                     </h2>
 
                     <p className="mt-1 text-[11px] text-[#667085] sm:text-[13px]">
