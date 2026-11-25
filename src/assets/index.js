@@ -38,6 +38,9 @@ import rstudio from "./rstudio.webp";
 import secondlogo from "./secondlogo.webp";
 import slack from "./slack.webp";
 import unilogo from "./unilogo.webp";
+import linkedinCoverGodsent from "./linkedin-cover-godsent.webp";
+import godsentLinkedinPhoto from "./godsent-linkedin-photo.webp";
+import unizikLogo from "./unizik-logo.webp";
 import zapier from "./zapier.webp";
 
 // Testimonials
@@ -261,6 +264,9 @@ export {
   linkedlncover,
   secondlogo,
   unilogo,
+  linkedinCoverGodsent,
+  godsentLinkedinPhoto,
+  unizikLogo,
   consultancyhome,
   consultafrica,
   testimonial1,

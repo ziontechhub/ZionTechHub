@@ -1,6 +1,8 @@
 import React from "react";
 import {
-  SirGodsentprofile,
+  godsentLinkedinPhoto,
+  linkedinCoverGodsent,
+  unizikLogo,
   certificatehome,
   collabimagehome,
   discord,
@@ -8,15 +10,14 @@ import {
   excel,
   googleanalytics,
   googlesheets,
-  linkedlncover,
   microsoft,
   rstudio,
   secondlogo,
   slack,
-  unilogo,
   zapier,
 } from "../../assets";
 import { motion } from "framer-motion";
+import { VerifiedUserOutlined } from "@mui/icons-material";
 
 function Benefits() {
   const dot = (
@@ -266,24 +267,33 @@ function Benefits() {
               <div className="sm:w-[864px] w-[468px]">
                 <img
                   className=" w-full sm:h-[172px] h-[120px] object-cover"
-                  src={linkedlncover}
+                  src={linkedinCoverGodsent}
                   alt="LinkedIn cover image"
                 />
                 <div className=" flex sm:justify-between relative">
                   <img
                     className=" absolute sm:w-[120px] sm:h-[120px] w-[60px] h-[60px] rounded-full sm:-top-[80px] sm:left-5 -top-[30px] left-5 border-[4px] border-white object-cover"
-                    src={SirGodsentprofile}
-                    alt="Sir Godsent profile image"
+                    src={godsentLinkedinPhoto}
+                    alt="Godsent Ndoma, Founder of Zion Tech Hub"
                   />
                   <section className=" flex  flex-col flex-1 sm:px-[27px] px-[20px] sm:pt-[44px] pt-[24px]">
                     <p className=" sm:text-[24px] text-[16px] font-[600] text-[#1A1A1ACC]">
-                      Ndoma Godsent
+                      Godsent Ndoma{" "}
+                      <VerifiedUserOutlined
+                        sx={{ fontSize: 18, verticalAlign: "middle", color: "#666" }}
+                      />
                     </p>
                     <p className=" sm:text-[18px] text-[14px] font-[300] text-[#1A1A1ACC] sm:pb-[8px] pb-[4px]">
-                      Data analyst
+                      Founder @ Zion Tech Hub | Healthcare Data Scientist |
+                      Building and Deploying Digital Health Solutions to
+                      Improve Healthcare Delivery in Africa
                     </p>
                     <p className=" sm:text-[14px] text-[12px] font-[500] text-[#1A1A1ACC]">
-                      Location . Contact info
+                      <span className="text-[#1A1A1A99] font-[400]">United States</span>{" "}
+                      · <span className="text-[#0A66C2] font-[600]">Contact info</span>
+                    </p>
+                    <p className=" sm:text-[14px] text-[12px] font-[600] text-[#0A66C2] pt-[4px]">
+                      42,022 followers · 500+ connections
                     </p>
                   </section>
                   <section className=" flex-1  flex sm:justify-center items-center  justify-start">
@@ -301,11 +311,11 @@ function Benefits() {
                       <div className=" flex items-center sm:gap-[16px] gap-[8px] justify-center">
                         <img
                           className="w-[40px] sm:h-[40px]  h-[30px]"
-                          src={unilogo}
-                          alt="University of PH logo"
+                          src={unizikLogo}
+                          alt="Nnamdi Azikiwe University logo"
                         />{" "}
                         <p className=" sm:text-[16px] text-[10px] font-[600] text-[#1A1A1ACC] pb-[8px]">
-                          University of Port Harcourt
+                          Nnamdi Azikiwe University
                         </p>
                       </div>
                     </div>

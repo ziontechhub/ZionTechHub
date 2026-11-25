@@ -349,6 +349,9 @@ function Form({
                             <h1 className="text-[28px] sm:text-[32px] font-[600] leading-tight text-[#101828]">
                                 Cohort 12.0
                             </h1>
+                            <p className="mt-2 text-[13px] sm:text-[14px] font-[600] text-[#034FE3]">
+                                Classes start 5 December 2026 · 3 months (12 weeks)
+                            </p>
 
                             <p className="mt-3 text-[12px] sm:text-[14px] font-[300] leading-6 text-[#667085] max-w-[560px]">
                                 Hey 👋 Complete the form below to enroll in your preferred track
