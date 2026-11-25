@@ -17,13 +17,13 @@ function Packages({
 
                 price: "$110",
                 naira: "₦147,000",
-                duration: "15-week structured training",
+                duration: "12-week structured training",
 
                 benefitsTitle:
                     "Healthcare Data Analytics — Basic Benefits",
 
                 benefits: [
-                    "15-week structured Healthcare Data Analytics training",
+                    "12-week structured Healthcare Data Analytics training",
                     "Live mentorship",
                     "Healthcare data analysis",
                     "Data cleaning and preparation",
@@ -53,7 +53,7 @@ function Packages({
 
                 price: "$500",
                 naira: "₦664,000",
-                duration: "15-week training + career preparation",
+                duration: "12-week training + career preparation",
 
                 benefitsTitle:
                     "Healthcare Data Analytics — Global Talent Benefits",
@@ -74,7 +74,7 @@ function Packages({
                 badge: "Career Accelerator",
 
                 placementCondition:
-                    "Complete the 15-week training, complete the required projects and assignments, and meet the program requirements to qualify for the placement guarantee.",
+                    "Complete the 12-week training, complete the required projects and assignments, and meet the program requirements to qualify for the placement guarantee.",
             },
         },
 
@@ -87,13 +87,13 @@ function Packages({
 
                 price: "$110",
                 naira: "₦147,000",
-                duration: "15-week structured training",
+                duration: "12-week structured training",
 
                 benefitsTitle:
                     "Financial Data Analytics — Basic Benefits",
 
                 benefits: [
-                    "15-week structured Financial Data Analytics training",
+                    "12-week structured Financial Data Analytics training",
                     "Live mentorship",
                     "Financial data analysis",
                     "Data cleaning and preparation",
@@ -125,7 +125,7 @@ function Packages({
 
                 price: "$500",
                 naira: "₦664,000",
-                duration: "15-week training + career preparation",
+                duration: "12-week training + career preparation",
 
                 benefitsTitle:
                     "Financial Data Analytics — Global Talent Benefits",
@@ -146,7 +146,7 @@ function Packages({
                 badge: "Career Accelerator",
 
                 placementCondition:
-                    "Complete the 15-week training, complete the required projects and assignments, and meet the program requirements to qualify for the placement guarantee.",
+                    "Complete the 12-week training, complete the required projects and assignments, and meet the program requirements to qualify for the placement guarantee.",
             },
         },
 
@@ -159,13 +159,13 @@ function Packages({
 
                 price: "$110",
                 naira: "₦147,000",
-                duration: "15-week structured training",
+                duration: "12-week structured training",
 
                 benefitsTitle:
                     "Data Analytics — Basic Benefits",
 
                 benefits: [
-                    "15-week structured Data Analytics training",
+                    "12-week structured Data Analytics training",
                     "Live mentorship",
                     "Real-world data analytics projects",
                     "Practical assignments",
@@ -197,7 +197,7 @@ function Packages({
 
                 price: "$500",
                 naira: "₦664,000",
-                duration: "15-week training + career preparation",
+                duration: "12-week training + career preparation",
 
                 benefitsTitle:
                     "Data Analytics — Global Talent Benefits",
@@ -219,7 +219,7 @@ function Packages({
                 badge: "Career Accelerator",
 
                 placementCondition:
-                    "Complete the 15-week training, complete the required projects and assignments, and meet the program requirements to qualify for the placement guarantee.",
+                    "Complete the 12-week training, complete the required projects and assignments, and meet the program requirements to qualify for the placement guarantee.",
             },
         },
 
@@ -232,13 +232,13 @@ function Packages({
 
                 price: "$110",
                 naira: "₦147,000",
-                duration: "15-week structured training",
+                duration: "12-week structured training",
 
                 benefitsTitle:
                     "AI & Machine Learning Engineering — Basic Benefits",
 
                 benefits: [
-                    "15-week structured AI & Machine Learning Engineering training",
+                    "12-week structured AI & Machine Learning Engineering training",
                     "Live mentorship",
                     "Artificial intelligence fundamentals",
                     "Machine learning concepts",
@@ -266,11 +266,11 @@ function Packages({
                 title: "AI & Machine Learning Engineering Global Talent",
 
                 description:
-                    "Build practical AI and Machine Learning Engineering skills through our 15-week program, prepare for the job market and qualify for guaranteed entry-level job placement through Zion Tech Hub's Talent Network after completing the required training, projects and assignments.",
+                    "Build practical AI and Machine Learning Engineering skills through our 12-week program, prepare for the job market and qualify for guaranteed entry-level job placement through Zion Tech Hub's Talent Network after completing the required training, projects and assignments.",
 
                 price: "$500",
                 naira: "₦664,000",
-                duration: "15-week training + career preparation",
+                duration: "12-week training + career preparation",
 
                 benefitsTitle:
                     "AI & Machine Learning Engineering — Global Talent Benefits",
@@ -297,7 +297,7 @@ function Packages({
                 badge: "Career Accelerator",
 
                 placementCondition:
-                    "Complete the 15-week training, complete the required projects and assignments, and meet the program requirements to qualify for guaranteed entry-level placement through Zion Tech Hub's Talent Network.",
+                    "Complete the 12-week training, complete the required projects and assignments, and meet the program requirements to qualify for guaranteed entry-level placement through Zion Tech Hub's Talent Network.",
             },
         },
 
@@ -458,7 +458,7 @@ function Packages({
 
             duration:
                 selectedTrackDetails?.basic?.duration ||
-                "15-week structured training",
+                "12-week structured training",
 
             benefitsTitle:
                 selectedTrackDetails?.basic?.benefitsTitle ||
@@ -491,7 +491,7 @@ function Packages({
 
             duration:
                 selectedTrackDetails?.global?.duration ||
-                "15-week training + career preparation",
+                "12-week training + career preparation",
 
             benefitsTitle:
                 selectedTrackDetails?.global?.benefitsTitle ||

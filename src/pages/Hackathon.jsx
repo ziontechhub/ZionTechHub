@@ -29,7 +29,7 @@ function Hackathon() {
     <div>
       <Helmet>
         <title>
-          Explore Our Blog, Get Tips & Career Hacks! | Zion Tech Hub
+          ZTH Data Hackathon: Build, Compete and Win | Zion Tech Hub
         </title>
         <meta
           name="description"
@@ -57,10 +57,10 @@ function Hackathon() {
                 New hackathon every quarter
               </p>
               <h1 className=" text-[#034FE3] font-[700] sm:text-[64px] text-[40px] sm:w-full w-[320px] sm:whitespace-nowrap sm:leading-[130%] sm:tracker-[1.28px] leading-[120%] tracker-[0.8px]">
-                ZTH Hacakathon
+                ZTH Hackathon
               </h1>
               <p className=" text-[#1A1A1A] font-[300] sm:text-[24px] text-[18px] sm:w-[712px] w-[325px]">
-                The Zion Tech Tech hackathon is a data battleground where the
+                The Zion Tech Hub hackathon is a data battleground where the
                 best minds come to solve real problems, showcase their skills,
                 and walk away with cash prizes and bragging rights
               </p>

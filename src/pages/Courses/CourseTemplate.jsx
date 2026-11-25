@@ -179,9 +179,9 @@ function CourseTemplate({
                     <section className="flex flex-col px-10">
                         <h3 className="text-center text-[24px] font-[600] text-[#1A1A1A] flex gap-[8px] items-center">
                             <span className="text-[#034FE3]"><Star /></span>
-                            4.8
+                            2,000+
                         </h3>
-                        <p className="text-[16px] font-[300] text-[#1A1A1A]">(75,000+ learner reviews)</p>
+                        <p className="text-[16px] font-[300] text-[#1A1A1A]">(professionals trained)</p>
                     </section>
                     <span className="sm:bg-[#034FE3] sm:w-[1px] sm:h-[44px] h-[0px] sm:border-none border border-dashed border-[#034FE34D]" />
                     <section className="flex px-10 flex-col">
@@ -191,7 +191,7 @@ function CourseTemplate({
                     <span className="sm:bg-[#034FE3] sm:w-[1px] sm:h-[44px] h-[0px] sm:border-none border border-dashed border-[#034FE34D]" />
                     <section className="flex px-10 flex-col">
                         <h3 className="text-[24px] font-[600] text-[#1A1A1A]">Program Duration</h3>
-                        <p className="text-[16px] font-[300] text-[#1A1A1A]">{duration || "8-12 Weeks"} comprehensive training program</p>
+                        <p className="text-[16px] font-[300] text-[#1A1A1A]">{duration || "12 Weeks (3 months)"} comprehensive training program</p>
                     </section>
                     <span className="sm:bg-[#034FE3] sm:w-[1px] sm:h-[44px] h-[0px] sm:border-none border border-dashed border-[#034FE34D]" />
                     <section className="flex px-10 flex-col">
@@ -279,4 +279,4 @@ function CourseTemplate({
     );
 }
 
-export default CourseTemplate;
+export default CourseTemplate;

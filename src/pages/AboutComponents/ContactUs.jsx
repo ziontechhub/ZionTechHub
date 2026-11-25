@@ -93,7 +93,7 @@ function ContactUs() {
             <section className=" text-white ">
               <h3 className=" text-[24px] font-[400]">Phone Number </h3>
               <p className=" text-[18px] font-[300] w-[227px] sm:w-full">
-                +234 902 366 7623
+                +234 805 509 4738
               </p>
             </section>
           </section>
@@ -106,7 +106,7 @@ function ContactUs() {
               </h3>
 
               <a
-                href="https://chat.whatsapp.com/Ziontechhub"
+                href="https://chat.whatsapp.com/Dlrzt1SyKuOHKeYInUmd1X"
                 className=" sm:text-[18px] text-[16px] underline font-[300]">
                 Click here to join us{" "}
               </a>

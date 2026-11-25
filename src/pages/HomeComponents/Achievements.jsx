@@ -254,8 +254,7 @@ function Achievements() {
           <span className=" text-[#034FE3]">Zion Tech Hub</span>
         </p>
         <p className=" text-[18px] font-[300] text-[#1A1A1A66]">
-          These are few of the stats of our accomplishment during the past one
-          year.
+          A few numbers from our cohorts so far.
         </p>
       </div>
       {/* achievements container  */}
@@ -270,11 +269,11 @@ function Achievements() {
           <div className=" flex gap-[14px] items-center justify-center">
             {individual}
             <span className=" sm:text-[64px] text-[48px]  font-[700] text-[#6D9357]">
-              321
+              2,000+
             </span>
           </div>
           <p className=" sm:text-[20px] text-[16px]  font-[400] text-[#6D9357] text-center">
-            data analysts and data <br /> scientists trained
+            data professionals <br /> trained
           </p>
           <span className=" absolute bottom-0 right-5">{dot1}</span>
           <span className=" absolute sm:bottom-10 bottom-3 sm:left-[150px] left-[100px]">
@@ -342,11 +341,11 @@ function Achievements() {
           <div className=" flex gap-[14px] items-center justify-center">
             {world}
             <span className=" sm:text-[64px] text-[48px]  font-[700] text-[#DDA249]">
-              12
+              31+
             </span>
           </div>
           <p className=" sm:text-[20px] text-[16px] font-[400] text-[#DDA249] text-center">
-            different countries
+            countries reached
           </p>
           <span className=" absolute bottom-0 right-5">{dot11}</span>
           <span className=" absolute sm:bottom-10 bottom-3 sm:left-[150px] left-[100px]">

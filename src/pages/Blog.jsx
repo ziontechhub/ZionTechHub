@@ -147,7 +147,7 @@ function Blog() {
     <div>
       <Helmet>
         <title>
-          Register for Our Hackathon, Build & Win Big | Zion Tech Hub{" "}
+          Data Careers Blog: Guides and Tips | Zion Tech Hub
         </title>
         <meta
           name="description"

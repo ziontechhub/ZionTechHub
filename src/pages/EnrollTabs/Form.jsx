@@ -515,7 +515,7 @@ function Form({
                                     {/* Course */}
                                     <section className="flex flex-col gap-2">
                                         <label className="text-[11px] sm:text-[12px] font-[500] text-[#475467]">
-                                            Chose a Track <span className="text-red-500">*</span>
+                                            Choose a Track <span className="text-red-500">*</span>
                                         </label>
 
                                         <div className="relative">

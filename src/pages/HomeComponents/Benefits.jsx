@@ -1,21 +1,15 @@
 import React from "react";
 import {
   SirGodsentprofile,
-  amazonlogo,
-  applelogo,
   certificatehome,
   collabimagehome,
   discord,
   emojiprofile,
   excel,
   googleanalytics,
-  googlelogo,
   googlesheets,
   linkedlncover,
-  metalogo,
   microsoft,
-  microsoftlogo,
-  notionlogo,
   rstudio,
   secondlogo,
   slack,
@@ -197,7 +191,7 @@ function Benefits() {
                       src={googleanalytics}
                       alt="Google Analytics logo"
                     />
-                    <span className=" pr-[10px]">Google Analystics</span>
+                    <span className=" pr-[10px]">Google Analytics</span>
                   </p>
                   <p className=" sm:p-[10px] p-[5px] flex items-center justify-center border-[#527455] rounded-full text-[#527455] border-[3px] sm:text-[20px] text-[12px] font-[600] gap-[12px]">
                     <img
@@ -311,7 +305,7 @@ function Benefits() {
                           alt="University of PH logo"
                         />{" "}
                         <p className=" sm:text-[16px] text-[10px] font-[600] text-[#1A1A1ACC] pb-[8px]">
-                          Univesity of PH
+                          University of Port Harcourt
                         </p>
                       </div>
                     </div>
@@ -354,36 +348,6 @@ function Benefits() {
                     </div>
                   </div>
                 </div>
-                <img
-                  className=" sm:w-[60px] sm:h-[60px] w-[50px] h-[50px] rounded-full object-cover absolute bottom-[42%] sm:left-5 left-8"
-                  src={metalogo}
-                  alt="Meta logo"
-                />
-                <img
-                  className="  sm:w-[60px] sm:h-[60px] w-[50px] h-[50px]  rounded-full object-cover absolute bottom-[60%] left-[55px]"
-                  src={applelogo}
-                  alt="Apple logo"
-                />
-                <img
-                  className="  sm:w-[60px] sm:h-[60px] w-[50px] h-[50px]  rounded-full object-cover absolute bottom-[80%] left-[120px]"
-                  src={googlelogo}
-                  alt="Google logo"
-                />
-                <img
-                  className="  sm:w-[60px] sm:h-[60px] w-[50px] h-[50px]  rounded-full object-cover absolute bottom-[72%] right-[160px]"
-                  src={microsoftlogo}
-                  alt="Microsoft logo"
-                />
-                <img
-                  className="  sm:w-[60px] sm:h-[60px] w-[50px] h-[50px]  rounded-full object-cover absolute bottom-[60%] right-[55px]"
-                  src={amazonlogo}
-                  alt="Amazon logo"
-                />
-                <img
-                  className="  sm:w-[60px] sm:h-[60px] w-[50px] h-[50px]  rounded-full object-cover absolute bottom-[38.5%] sm:right-5 right-8"
-                  src={notionlogo}
-                  alt="Notion logo"
-                />
               </div>
             </div>
           </motion.section>
@@ -457,7 +421,7 @@ function Benefits() {
                       </section>
                       <p className="text-[16px] font-[300] text-[#1A1A1A99] w-[536px]">
                         Live call started! We will be covering all your
-                        questions and thoughts concerning sourcing products.
+                        questions about your project, dashboard and portfolio.
                         Feel free to ask questions where you <br /> aren’t
                         clear.
                       </p>

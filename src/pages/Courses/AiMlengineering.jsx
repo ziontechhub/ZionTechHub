@@ -210,7 +210,7 @@ const AiMlengineering = () => {
             courseModules={modules}
             skillsToGain={skills}
             targetAudience={audience}
-            courseOverview="Build practical AI and Machine Learning Engineering skills through a structured 15-week program focused on artificial intelligence fundamentals, machine learning, data preparation, model development, predictive analytics, model evaluation, and practical problem-solving."
+            courseOverview="Build practical AI and Machine Learning Engineering skills through a structured 12-week (3-month) program focused on artificial intelligence fundamentals, machine learning, data preparation, model development, predictive analytics, model evaluation, and practical problem-solving."
             courseIcon={aiMlIcons}
             metaTitle="AI & Machine Learning Engineering Course | Zion Tech Hub"
             metaDescription="Learn AI and Machine Learning Engineering at Zion Tech Hub. Build practical skills in artificial intelligence, machine learning, data preparation, predictive analytics, model development, and real-world AI applications."

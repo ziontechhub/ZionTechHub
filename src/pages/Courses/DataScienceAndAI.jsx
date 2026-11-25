@@ -215,9 +215,9 @@ const DataScienceAndAI = () => {
             courseIcon={dsaiIcons}
             metaTitle="Data Science & AI Course | Zion Tech Hub"
             metaDescription="Learn Data Science and AI at Zion Tech Hub through a structured 12-week programme covering data science, data analysis, machine learning, deep learning, artificial intelligence, NLP, model deployment and responsible AI."
-            duration="12 Weeks"
+            duration="12 Weeks (3 months)"
         />
     );
 };
 
-export default DataScienceAndAI;
+export default DataScienceAndAI;

@@ -116,9 +116,9 @@ function Consultation() {
             className=" flex-1 sm:flex hidden pl-[50px] items-center">
             <div className=" flex flex-col  gap-[14px]  h-fit items-end justify-center">
               <section className=" w-[180px] h-[180px] rounded-[10px] flex flex-col bg-[#D3DDCD66] px-[16px] justify-center">
-                <h2 className=" text-[56px] text-[#6D9357] font-[700]">10+</h2>
+                <h2 className=" text-[56px] text-[#6D9357] font-[700]">2,000+</h2>
                 <p className=" text-[18px] text-[#6D9357] font-[300]">
-                  Years of <br /> Experience
+                  Professionals <br /> trained
                 </p>
               </section>
               <div className=" flex gap-[14px] relative">
@@ -132,7 +132,7 @@ function Consultation() {
                       <Star fontSize="medium" />
                     </span>
                     <p className=" text-[13px] text-[#1A1A1A] font-[400] pl-[15px]">
-                      Based on 1,100 reviews
+                      Trusted by 2,000+ learners
                     </p>
                   </section>
                   <img
@@ -155,10 +155,10 @@ function Consultation() {
               <div className=" flex gap-[14px] relative">
                 <section className=" w-[180px] h-[180px] rounded-[10px] flex flex-col bg-[#E4E8EF] px-[16px] justify-center">
                   <h2 className=" text-[56px] text-[#034FE3] font-[700]">
-                    90%
+                    31+
                   </h2>
                   <p className=" text-[18px] text-[#034FE3] font-[300]">
-                    Client <br /> Satisfaction Rate
+                    Countries <br /> reached
                   </p>
                 </section>
                 <img
@@ -168,11 +168,11 @@ function Consultation() {
                 />
                 <section className=" w-[180px] h-[180px] rounded-[10px] flex flex-col bg-[#F1D3AF66] px-[16px] justify-center">
                   <h2 className=" text-[56px] text-[#DDA249] font-[700]">
-                    98%
+                    12
                   </h2>
                   <p className=" text-[18px] text-[#DDA249] font-[300]">
-                    Positive Client
-                    <br /> Reviews
+                    Cohorts
+                    <br /> delivered
                   </p>
                 </section>
                 <section className=" flex gap-[14px] items-center bg-[#F0F0F01A] backdrop-blur-lg shadow-lg p-[10px] rounded-full absolute -right-[150px] -bottom-[38px]">
@@ -195,10 +195,10 @@ function Consultation() {
                   </section>
                   <section className=" flex flex-col items-start">
                     <p className=" text-[18px] text-[#1A1A1A] font-[700] pr-[15px]">
-                      Over 24 Countries
+                      31+ Countries
                     </p>
                     <p className=" text-[12px] text-[#1A1A1A] font-[300] pr-[15px]">
-                      Based on 1,100 reviews
+                      Learners worldwide
                     </p>
                   </section>
                 </section>

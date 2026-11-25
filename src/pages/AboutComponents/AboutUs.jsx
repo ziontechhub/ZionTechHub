@@ -91,7 +91,7 @@ function AboutUs() {
             className=" font-[300] sm:text-[24px] text-[18px] sm:w-[530px] w-[317px] text-[#1A1A1ACC]">
             Zion Tech Hub provides world class training and mentorship program
             in data analytics, data science and Machine Learning. <br /> <br />{" "}
-            We also provide cooperate training for businesses and organizations
+            We also provide corporate training for businesses and organizations
             improving operational efficiency through upskilling the workforce
             with relevant updated technologies needed to drive phenomenal growth
             for their organizations <br /> <br /> We provide data consultancy

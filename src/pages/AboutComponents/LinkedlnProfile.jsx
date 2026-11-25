@@ -33,7 +33,7 @@ function LinkedlnProfile() {
             <section className=" py-[32px] flex flex-col gap-[32px]">
               <p className=" text-[18px] font-[300] text-[#1a1a1a66] sm:w-[430px] w-[325px]">
                 Search for Zion Tech Hub, follow and send us a dm letting us
-                know if you are interested in joining our community so we an add
+                know if you are interested in joining our community so we can add
                 you up!
               </p>
               <div>

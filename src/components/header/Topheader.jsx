@@ -1,4 +1,3 @@
-import { Star } from "@mui/icons-material";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import React, { useState } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
@@ -11,7 +10,7 @@ function Topheader() {
   // Reusable banner text
   const bannerMessage = (
     <p className="md:text-[18px] lg:text-[14px] text-[12px] text-[#FFFFFF] font-[300] p-[16px] bg-[#1A1A1A] w-full text-center">
-      Join our Partnership Program and earn up to 10% commission on every referral!
+      Join our Partnership Program and earn 10% commission on every referral!
       <Link to="/zth-partnership-program" className="font-[600] underline px-5">
         Join Now
       </Link>
@@ -128,14 +127,7 @@ function Topheader() {
                     </h2>
 
                     <p className="sm:text-[16px] text-[12px] font-[600] text-white">
-                      4.8
-                    </p>
-
-                    <p className="text-[12px] font-[400] text-white underline flex items-center">
-                      <span className="text-[#034FE3]">
-                        <Star fontSize="medium" />
-                      </span>
-                      (75,765 reviews)
+                      · 3 months · Live online
                     </p>
                   </article>
                 </section>
