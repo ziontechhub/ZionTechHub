@@ -95,7 +95,7 @@ function Home() {
                   Enroll <ArrowForward />
                 </motion.button>
                 {/* <Link
-                  to="/consult"
+                  to="/contact-us"
                   className=" sm:py-[10px] py-[12px] px-[24px] text-[16px] sm:text-[18px] font-[400] border  rounded-[10px] flex items-center justify-center ">
                   {" "}
                   Book a Consultation

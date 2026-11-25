@@ -131,7 +131,7 @@ function Contact() {
                   Mon-Fri from 8am to 5pm
                 </p>
                 <p className=" text-[18px] font-[600] underline">
-                  +234 902 366 7623
+                  +234 805 509 4738
                 </p>
               </section>
             </motion.div>

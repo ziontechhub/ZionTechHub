@@ -1,6 +1,5 @@
 import React from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
-import CreateAdmin from "./scripts/CreateAdmin";
 import RegistrationsManagement from "./dashboard/dashboardRoutes/RegistrationsManagement";
 import CoursesManagement from "./dashboard/dashboardRoutes/CoursesManagement";
 
@@ -94,7 +93,6 @@ function App() {
 
           <Route path="*" element={<Navigate to="/" replace />} />
         </Route>
-        <Route path="/create-admin" element={<CreateAdmin />} />
         {/* Dashboard Routes */}
         <Route path="/dashboard" element={<DashContainer />}>
           <Route path="home" element={<Dashboard />} />

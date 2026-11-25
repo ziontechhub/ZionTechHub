@@ -123,11 +123,11 @@ function NextCohort() {
               <article className=" flex flex-col sm:gap-[30px] gap-[10px] items-center justify-center sm:w-[290px] sm:h-[335px] w-[160px] h-[180px] bg-white sm:rounded-[30px] rounded-[20px] shadow-lg">
                 <div>{individual}</div>
                 <div className=" flex flex-col items-center justify-center text-[#1A1A1ACC] ">
-                  <h2 className=" sm:text-[84px] text-[36px] font-[700]">
-                    321
+                  <h2 className=" sm:text-[64px] text-[32px] font-[700]">
+                    2,000+
                   </h2>
                   <p className=" sm:text-[24px] text-[14px] font-[300]">
-                    Registered students
+                    Professionals trained
                   </p>
                 </div>
               </article>
@@ -141,9 +141,9 @@ function NextCohort() {
               <article className=" flex flex-col sm:gap-[30px] gap-[10px] items-center justify-center sm:w-[290px] sm:h-[335px] w-[160px] h-[180px] bg-white sm:rounded-[30px] rounded-[20px] border border-[#1A1A1A4D]">
                 <div>{world}</div>
                 <div className=" flex flex-col items-center justify-center text-[#1A1A1ACC] ">
-                  <h2 className=" sm:text-[84px] text-[36px] font-[700]">12</h2>
+                  <h2 className=" sm:text-[84px] text-[36px] font-[700]">31+</h2>
                   <p className=" sm:text-[24px] text-[14px] font-[300]">
-                    Countries globally
+                    Countries reached
                   </p>
                 </div>
               </article>
@@ -159,7 +159,7 @@ function NextCohort() {
                 <div className=" flex flex-col items-center justify-center text-[#1A1A1ACC] ">
                   <h2 className=" sm:text-[84px] text-[36px] font-[700]">12</h2>
                   <p className=" sm:text-[24px] text-[14px] font-[300]">
-                    Weeks long
+                    Weeks (3 months)
                   </p>
                 </div>
               </article>
@@ -174,10 +174,10 @@ function NextCohort() {
                 <div>{verified}</div>
                 <div className=" flex flex-col items-center justify-center text-[#1A1A1ACC] ">
                   <h2 className=" sm:text-[84px] text-[36px] font-[700]">
-                    98%
+                    12
                   </h2>
                   <p className=" sm:text-[24px] text-[14px] font-[300]">
-                    Success rate
+                    Cohorts run
                   </p>
                 </div>
               </article>

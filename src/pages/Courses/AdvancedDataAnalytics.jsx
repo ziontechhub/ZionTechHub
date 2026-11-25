@@ -125,7 +125,7 @@ const AdvancedDataAnalytics = () => {
             courseIcon={healthcareIcons}
             metaTitle="Advanced Data Analytics Course | Zion Tech Hub"
             metaDescription="Learn Advanced Data Analytics at Zion Tech Hub. Master Power BI, Tableau, SQL, Python, data visualization, predictive analytics, and machine learning to build a successful career in data."
-            duration="10 Weeks"
+            duration="12 Weeks (3 months)"
         />
     );
 };

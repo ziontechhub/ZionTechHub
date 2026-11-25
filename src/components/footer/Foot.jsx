@@ -82,7 +82,7 @@ function Foot() {
               </Link>
               {/* Consultation Button */}
               <Link
-                to="/consult"
+                to="/contact-us"
                 className="py-[12px] sm:px-[24px] px-[20px] flex items-center justify-center sm:text-[18px] text-[16px] font-[400] rounded-[10px] border border-gray-300">
                 Book a Consultation
               </Link>

@@ -201,7 +201,7 @@ const DataAnalysis = () => {
     <CourseTemplate
       courseTitle="Data Analytics"
       courseSubtitle="Stop Learning Data Analytics Only in Theory. Start Learning by Working With Real Data."
-      courseDescription="Build practical Data Analytics skills through a 15-week program focused on cleaning data, analysing datasets, identifying patterns, creating visualizations, communicating findings, and solving real-world problems with data."
+      courseDescription="Build practical Data Analytics skills through a 12-week (3-month) program focused on cleaning data, analysing datasets, identifying patterns, creating visualizations, communicating findings, and solving real-world problems with data."
       courseImages={[
         analyticshero1,
         analyticshero2,
@@ -213,7 +213,7 @@ const DataAnalysis = () => {
       courseModules={modules}
       skillsToGain={skills}
       targetAudience={audience}
-      courseOverview="This 15-week Data Analytics program is designed to help you build practical ability by working with real data. You'll learn how to clean data, analyse it, identify useful patterns, create visualizations, draw insights, communicate findings clearly, and apply data-driven problem solving to practical projects."
+      courseOverview="This 12-week (3-month) Data Analytics program is designed to help you build practical ability by working with real data. You'll learn how to clean data, analyse it, identify useful patterns, create visualizations, draw insights, communicate findings clearly, and apply data-driven problem solving to practical projects."
       courseIcon={dataAnalyticsIcons}
       metaTitle="Data Analytics Training Course | Zion Tech Hub"
       metaDescription="Learn practical Data Analytics at Zion Tech Hub. Build skills in data cleaning, data analysis, visualization, interpretation, reporting, insight generation, and data-driven problem solving through practical projects."

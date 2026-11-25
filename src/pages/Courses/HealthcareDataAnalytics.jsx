@@ -108,9 +108,9 @@ const HealthcareDataAnalytics = () => {
             courseIcon={healthcareIcons}
             metaTitle="Healthcare Data Analytics Course | Zion Tech Hub"
             metaDescription="Master healthcare data analytics with our comprehensive course. Learn HL7/FHIR standards, clinical data analysis, and predictive modeling for better patient outcomes. Enroll now!"
-            duration="10 Weeks"
+            duration="12 Weeks (3 months)"
         />
     );
 };
 
-export default HealthcareDataAnalytics;
+export default HealthcareDataAnalytics;

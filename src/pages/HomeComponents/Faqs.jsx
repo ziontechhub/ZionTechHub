@@ -34,8 +34,7 @@ function Faqs() {
             Is it a physical training?
           </h3>
           <p className=" sm:w-[446px] w-[305px] font-[300] sm:text-[24px] text-[16px]">
-            Our training is majorly virtual with physical training available
-            only in Port Harcourt and Anambra state{" "}
+            Our training is fully online and live, so you can join from anywhere in the world{" "}
           </p>
         </section>
         <section className="sm:py-[40] sm:px-[40px] py-[40px] lg:px-[20px] px-[15px] rounded-[10px] bg-[#EBECED] flex flex-col gap-[12px] ">
@@ -62,8 +61,7 @@ function Faqs() {
             What is the schedule of <br /> the program?
           </h3>
           <p className=" sm:w-[446px] w-[305px] font-[300] sm:text-[24px] text-[16px]">
-            Depending on the course, it could be a 3 month or 6 month long
-            program. Weekend and weekdays sessions are available{" "}
+            Every program runs for 3 months (12 weeks) of live classes. Weekend and weekdays sessions are available{" "}
           </p>
         </section>
         <section className=" sm:py-[40] sm:px-[40px] py-[40px] lg:px-[20px] px-[15px] rounded-[10px] bg-[#EBECED] flex flex-col gap-[12px] ">

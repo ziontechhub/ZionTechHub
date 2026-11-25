@@ -110,9 +110,9 @@ const FinancialDataAnalytics = () => {
             courseIcon={financialIcons}
             metaTitle="Financial Data Analytics Course | Zion Tech Hub"
             metaDescription="Master financial data analytics with our comprehensive course. Learn risk assessment, investment analysis, fraud detection, and algorithmic trading. Enroll now!"
-            duration="10 Weeks"
+            duration="12 Weeks (3 months)"
         />
     );
 };
 
-export default FinancialDataAnalytics;
+export default FinancialDataAnalytics;
